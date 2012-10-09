@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">TextboxButton</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="lblWelcome">Textbox and Button Testing</string>
+    <string name="btnClickme">After write, click me</string>
+    <string name="txtWrite">write what you want</string>
+
+</resources>

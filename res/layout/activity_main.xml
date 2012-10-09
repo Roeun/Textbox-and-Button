@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:shadowColor="#C0C0C0"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:shadowRadius="1.0"
+        android:text="@string/lblWelcome"
+        android:textColor="#0099FF"
+        android:textColorLink="#ff0000"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:context=".MainActivity" />
+
+    <EditText
+        android:id="@+id/txtWrite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:hint="@string/txtWrite"
+        android:inputType="textAutoCorrect" />
+
+    <Button
+        android:id="@+id/btnClickme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtWrite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/btnClickme" />
+
+    <TextView
+        android:id="@+id/lblGetText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtWrite"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txtWrite"
+        android:layout_below="@+id/btnClickme"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#E56E94" />
+
+</RelativeLayout>
